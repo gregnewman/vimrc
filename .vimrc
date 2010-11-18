@@ -57,7 +57,7 @@ vmap <tab> %
 set wrap
 set textwidth=79
 set formatoptions=qrn1
-set colorcolumn=85
+set colorcolumn=79
 
 " Use the same symbols as TextMate for tabstops and EOLs
 set list
@@ -227,7 +227,7 @@ let g:atia_attributes_complete = 0
 nnoremap ; :
 
 " Save when losing focus
-au FocusLost * :wa
+"" au FocusLost * :wa
 
 " Stop it, hash key
 inoremap # X<BS>#
@@ -252,3 +252,8 @@ if has('gui_running')
 
     highlight SpellBad term=underline gui=undercurl guisp=Orange
 endif
+
+" gist.vim
+let g:gist_clip_command = 'pbcopy'
+let g:gist_detect_filetype = 1
+let g:gist_open_browser_after_post = 1
