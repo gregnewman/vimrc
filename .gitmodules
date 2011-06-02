@@ -1,3 +1,9 @@
 [submodule "bundle/Gist.vim"]
 	path = bundle/Gist.vim
 	url = https://github.com/vim-scripts/Gist.vim.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/ervandew/supertab.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
