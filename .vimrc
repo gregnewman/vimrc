@@ -1,5 +1,5 @@
 filetype off
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 filetype plugin indent on
 
 set nocompatible
@@ -70,7 +70,7 @@ set listchars=tab:▸\ ,eol:¬
 
 " Color scheme (terminal)
 syntax on
-" set background=dark
+" set background=light
 colorscheme github
 
 " NERD Tree
@@ -95,7 +95,7 @@ map <C-l> <C-w>l
 map <leader>w <C-w>v<C-w>l
 
 " Folding
-set foldlevelstart=0
+set foldlevelstart=20
 nnoremap <Space> za
 vnoremap <Space> za
 au BufNewFile,BufRead *.html map <leader>ft Vatzf
