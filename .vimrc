@@ -70,8 +70,8 @@ set listchars=tab:▸\ ,eol:¬
 
 " Color scheme (terminal)
 syntax on
-set background=dark
-colorscheme delek
+" set background=dark
+colorscheme github
 
 " NERD Tree
 map <F2> :NERDTreeToggle<cr>
